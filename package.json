@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc -b",
+    "dev": "node dist/src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.11.1",
+    "@prisma/extension-accelerate": "^2.0.1",
+    "@types/authenticator": "^1.1.4",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/nodemailer": "^6.4.17",
+    "authenticator": "^1.1.5",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.4",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "prisma": "^6.11.1",
+    "tsx": "^4.20.3"
+  }
+}
