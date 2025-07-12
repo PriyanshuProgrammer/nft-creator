@@ -15,6 +15,7 @@ const users = [
     {
         name: "John",
         email: "john@gmail.com",
+        verified: true,
         nfts: {
             create: [
                 {
@@ -33,6 +34,7 @@ const users = [
     {
         name: "John2",
         email: "john2@gmail.com",
+        verified: true,
         nfts: {
             create: [
                 {
